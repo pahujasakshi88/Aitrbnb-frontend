@@ -5,7 +5,7 @@ export const authDataContext = createContext();
 
 function AuthContext({ children }) {
 
-    let serverUrl = "http://localhost:8000"; // Replace with your server URL
+    let serverUrl = "https://airbnb-backend-91h9.onrender.com"; // Replace with your server URL
 
     let [loading, setLoading] = useState(false);
 
